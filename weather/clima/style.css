@@ -1,0 +1,68 @@
+
+
+.container {
+    
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+
+}
+
+.card {
+
+    max-width: 26rem;
+    width: 600px;
+    text-align: center;
+    
+}
+
+
+.city {
+    font-size: 30px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 3px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0,0,0,0.2);
+
+    margin: 4px 3px;
+}
+
+.weather{
+    font-size: 32px;
+
+
+}
+
+.hi-low{
+
+    font-size: 22px;
+}
+
+
+
+.button-plus{
+
+    margin: 15px auto;
+    width: 80px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.desactive{
+    visibility: hidden;
+    display: none;
+}
